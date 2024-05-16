@@ -1,17 +1,33 @@
 html{
 font-size: 62.5%; /* 62,5% x 16px = 10px */
 } 
-body{ 
-    font-family: Arial, Helvetica, sans-serif;
+body { 
+font-family: Arial, Helvetica, sans-serif;
 margin: 1rem;
+width: 60%;
+border: #c7b1b1 solid 1px;
+padding: 5px;
+
 }
+
+
 h1, p, figure, span {
     margin-block-end: ;
 }
 
+.greenBackground {
+    background: #008001;
+    color: white;
+}
+
+.greyBackground {
+    background: #D3D3D3;
+    margin-bottom: 10px;
+}
+
 h1{
     font-size: 2.4rem; /*2,4 x 10px = 24px */
-    color: red;
+    color: black;
 }
 p{
     font-size: 1.6rem; /*1,6 x 10px = 16px */
